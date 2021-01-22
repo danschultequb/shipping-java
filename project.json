@@ -1,0 +1,14 @@
+{
+  "project": "shipping-java",
+  "publisher": "qub",
+  "version": "1",
+  "java": {
+    "dependencies": [
+      {
+        "publisher": "qub",
+        "project": "usps-java",
+        "version": "1"
+      }
+    ]
+  }
+}
