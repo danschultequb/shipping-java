@@ -1,13 +1,15 @@
 {
   "project": "shipping-java",
   "publisher": "qub",
-  "version": "1",
+  "version": "6",
   "java": {
+    "mainClass": "qub.QubShipping",
+    "shortcutName": "qub-shipping",
     "dependencies": [
       {
         "publisher": "qub",
         "project": "usps-java",
-        "version": "1"
+        "version": "6"
       }
     ]
   }
