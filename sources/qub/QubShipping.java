@@ -17,7 +17,7 @@ public interface QubShipping
             .setApplicationName("qub-shipping")
             .setApplicationDescription("Application that gets the current details about shipments.");
 
-        actions.addAction("add", QubShipping::addShipment)
+        actions.addAction("addShipment", QubShipping::addShipment)
             .addAlias("add")
             .setDescription("Add a new shipment.");
 
@@ -265,6 +265,11 @@ public interface QubShipping
         final USPSClient uspsClient = USPSClient.create(httpClient)
             .setUserId(uspsUserId);
         result.add(USPSCarrier.create(uspsClient));
+
+        final String upsAccessLicenseNumber = environmentVariables.get("UPS_ACCESS_KEY").await();
+        final UPSClient upsClient = UPSClient.create(httpClient)
+            .setAccessLicenseNumber(upsAccessLicenseNumber);
+        result.add(UPSCarrier.create(upsClient));
 
         PostCondition.assertNotNull(result, "result");
 

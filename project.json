@@ -1,7 +1,7 @@
 {
   "project": "shipping-java",
   "publisher": "qub",
-  "version": "6",
+  "version": "8",
   "java": {
     "mainClass": "qub.QubShipping",
     "shortcutName": "qub-shipping",
@@ -9,7 +9,12 @@
       {
         "publisher": "qub",
         "project": "usps-java",
-        "version": "6"
+        "version": "7"
+      },
+      {
+        "publisher": "qub",
+        "project": "ups-java",
+        "version": "1"
       }
     ]
   }

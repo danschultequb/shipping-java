@@ -11,55 +11,66 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/qub/qub/usps-java/versions/6/usps-java.jar!/"/>
+          <root url="jar://C:/qub/qub/usps-java/versions/7/usps-java.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar://C:/qub/qub/usps-java/versions/6/usps-java.sources.jar!/"/>
+          <root url="jar://C:/qub/qub/usps-java/versions/7/usps-java.sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/qub/qub/xml-java/versions/27/xml-java.jar!/"/>
+          <root url="jar://C:/qub/qub/xml-java/versions/28/xml-java.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar://C:/qub/qub/xml-java/versions/27/xml-java.sources.jar!/"/>
+          <root url="jar://C:/qub/qub/xml-java/versions/28/xml-java.sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/qub/qub/lib-java/versions/119/lib-java.jar!/"/>
+          <root url="jar://C:/qub/qub/lib-java/versions/121/lib-java.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar://C:/qub/qub/lib-java/versions/119/lib-java.sources.jar!/"/>
+          <root url="jar://C:/qub/qub/lib-java/versions/121/lib-java.sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/qub/qub/http-java/versions/18/http-java.jar!/"/>
+          <root url="jar://C:/qub/qub/http-java/versions/19/http-java.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar://C:/qub/qub/http-java/versions/18/http-java.sources.jar!/"/>
+          <root url="jar://C:/qub/qub/http-java/versions/19/http-java.sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/qub/qub/dns-java/versions/20/dns-java.jar!/"/>
+          <root url="jar://C:/qub/qub/dns-java/versions/21/dns-java.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar://C:/qub/qub/dns-java/versions/20/dns-java.sources.jar!/"/>
+          <root url="jar://C:/qub/qub/dns-java/versions/21/dns-java.sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/qub/qub/ups-java/versions/1/ups-java.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/qub/qub/ups-java/versions/1/ups-java.sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
